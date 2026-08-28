@@ -16,9 +16,6 @@ public class Main {
         System.out.println("Factory escolhida: " + factory.getClass().getSimpleName());
         System.out.println();
 
-        // O cliente (Application) so conhece a interface GUIFactory e as interfaces
-        // Button/Checkbox. Ele nao sabe, e nao precisa saber, se esta usando
-        // componentes Windows ou Mac.
         Application app = new Application(factory);
         app.render();
         app.simulateUserInteraction();
