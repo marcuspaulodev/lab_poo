@@ -1,6 +1,11 @@
 # Java build output
 bin/
+out/
 *.class
+
+# IDE (IntelliJ)
+.idea/
+*.iml
 
 # OS/editor
 .DS_Store
