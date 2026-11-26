@@ -10,3 +10,6 @@ out/
 # OS/editor
 .DS_Store
 *.swp
+
+# Projeto separado (repositório próprio)
+digital-menu/
